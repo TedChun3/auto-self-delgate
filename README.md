@@ -2,7 +2,7 @@
 withdraw rewards and delegate bot
 I share scripts that use `expect` code.
 
-# Install expect command 
+# Install expect 
 ```apt install expect```
 
 # Expect scripts
