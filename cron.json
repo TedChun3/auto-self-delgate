@@ -1,0 +1,13 @@
+{
+    "apps": [
+    {
+        "name": "auto-delegate",
+        "script": "sh",
+        "args": [
+            "-c" ,"/usr/bin/expect /root/scripts/reward.exp ; sleep 180; /usr/bin/expect /root/scripts/delegate.exp ; sleep 1800"
+        ],
+        "exec_interpreter": "none",
+        "exec_mode": "fork_mode"
+    }
+]
+}
