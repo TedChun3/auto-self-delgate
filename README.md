@@ -6,7 +6,7 @@ I share scripts that use `expect` code.
 ```apt install expect```
 
 # Expect scripts
-rewards.exp
+file name: rewards.exp
 ```
 #!/usr/bin/expect
 spawn desmos tx distribution withdraw-rewards <your operator address: desmosvaloper...> --from <your key> --commission --chain-id morpheus-apollo-1 --broadcast-mode block -y
@@ -19,7 +19,7 @@ expect {
 }
 ```
 
-delegate.exp
+file name: delegate.exp
 ```
 #!/usr/bin/expect
 
