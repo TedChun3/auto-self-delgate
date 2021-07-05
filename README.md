@@ -6,6 +6,8 @@ I share scripts that use `expect` code.
 ```apt install expect```
 
 # Expect scripts
+Make the below two different expect scripts (reward.exp, delegate.exp) with editing tool.
+
 file name: rewards.exp
 ```
 #!/usr/bin/expect
@@ -32,6 +34,5 @@ expect {
     }
 }
 ```
-Make the above two different scripts (reward.exp, delegate.exp) with editing tool.
 
 
