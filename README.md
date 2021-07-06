@@ -35,4 +35,4 @@ expect {
 }
 ```
 
-
+You can make a cron job with `pm2`
