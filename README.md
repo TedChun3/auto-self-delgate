@@ -8,7 +8,7 @@ I share scripts that use `expect` code.
 # Expect scripts
 Make the below two different expect scripts (reward.exp, delegate.exp) with editing tool.
 
-file name: rewards.exp
+file name: reward.exp
 ```
 #!/usr/bin/expect
 spawn desmos tx distribution withdraw-rewards <your operator address: desmosvaloper...> --from <your key> --commission --chain-id morpheus-apollo-1 --broadcast-mode block -y
